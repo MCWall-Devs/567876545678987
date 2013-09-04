@@ -5,7 +5,7 @@ namespace MCForge.Commands
     public class CmdSpeedHacks : Command
     {
         public override string name { get { return "speedhacks"; } }
-        public override string[] aliases { get { return new string[] { "speedhack" }; } }
+        public override string shortcut { get { return new string[] { "speedhack" }; } }
         public override string type { get { return "mod"; } }
         public override bool museumUsable { get { return false; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Operator; } }
