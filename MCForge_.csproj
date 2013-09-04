@@ -271,6 +271,7 @@
     <Compile Include="Commands\CmdLoginMessage.cs" />
     <Compile Include="Commands\CmdLogoutMessage.cs" />
     <Compile Include="Commands\CmdMain.cs" />
+    <Compile Include="Commands\CmdMake.cs" />
     <Compile Include="Commands\CmdPerbuildMax.cs" />
     <Compile Include="Commands\CmdPervisitMax.cs" />
     <Compile Include="Commands\CmdPlayerBlock.cs" />
@@ -504,6 +505,7 @@
     <Compile Include="Commands\CmdMode.cs" />
     <Compile Include="Commands\CmdPause.cs" />
     <Compile Include="Commands\CmdJail.cs" />
+    <Compile Include="Commands\CmdKiss.cs" />
     <Compile Include="Commands\CmdMuseum.cs" />
     <Compile Include="Commands\CmdMap.cs" />
     <Compile Include="Commands\CmdReplaceAll.cs" />
