@@ -429,6 +429,7 @@
     <Compile Include="Commands\CmdKickban.cs" />
     <Compile Include="Commands\CmdLevels.cs" />
     <Compile Include="Commands\CmdLoad.cs" />
+    <Compile Include="Commands\CmdMake.cs" />
     <Compile Include="Commands\CmdMapInfo.cs" />
     <Compile Include="Commands\CmdMe.cs" />
     <Compile Include="Commands\CmdMessageBlock.cs" />
@@ -505,7 +506,6 @@
     <Compile Include="Commands\CmdMode.cs" />
     <Compile Include="Commands\CmdPause.cs" />
     <Compile Include="Commands\CmdJail.cs" />
-    <Compile Include="Commands\CmdKiss.cs" />
     <Compile Include="Commands\CmdMuseum.cs" />
     <Compile Include="Commands\CmdMap.cs" />
     <Compile Include="Commands\CmdReplaceAll.cs" />
