@@ -5,7 +5,7 @@ namespace MCForge.Commands
     public class CmdPauseCuboids : Command
     {
         public override string name { get { return "pausecuboids"; } }
-        public override string[] aliases { get { return new string[] { "pc", "pcuboids" }; } }
+        public override string shortcut { get { return new string[] { "pc", "pcuboids" }; } }
         public override string type { get { return "build"; } }
         public override bool museumUsable { get { return true; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Admin; } }
