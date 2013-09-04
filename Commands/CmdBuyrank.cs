@@ -21,7 +21,7 @@ namespace MCForge.Commands
 
       public override string name { get { return "buyrank"; } }
       public override string shortcut { get { return "br"; } }
-      public override string type { get { return "other"; } }
+      public override string type { get { return "custom"; } }
       public override bool museumUsable { get { return true; } }
       public override LevelPermission defaultRank { get { return LevelPermission.Guest; } }
 
