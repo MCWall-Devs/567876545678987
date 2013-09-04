@@ -1,6 +1,6 @@
 using System;
 
-namespace MCForge
+namespace MCForge.Commands
 {
     public class CmdPauseCuboids : Command
     {
