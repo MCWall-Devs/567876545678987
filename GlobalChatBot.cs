@@ -48,7 +48,7 @@ namespace MCForge
                 Server.s.Log("[GlobalChat] The IRC dll was not found!");
                 return;
             }*/
-            server = "irc.mibbit.net"; channel = "#mcchawk"; this.nick = nick.Replace(" ", "");
+            server = "irc.mibbit.net"; channel = "#mcchawk"; this.nick = nick.Replace("&9 ", "&9");
             connection = new Connection(new ConnectionArgs(nick, server), false, false);
             if (Server.UseGlobalChat)
             {
